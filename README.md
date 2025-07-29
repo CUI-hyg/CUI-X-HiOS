@@ -69,7 +69,7 @@ pip install -r requirements.txt
 运行```CUI-X-HiOS.py```,开始使用吧~
 
 ## Feature
-1.提升GUIUse稳定性<开发中>
+1.提升GUIUse稳定性<开发中> \n
 2.构建Workflow体系<规划中>
 3.建立memory机制<还未开工>
 4.解决Agent库导入问题<找方案中>
