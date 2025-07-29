@@ -69,18 +69,18 @@ pip install -r requirements.txt
 运行```CUI-X-HiOS.py```,开始使用吧~
 
 ## Feature
-1.提升GUIUse稳定性<开发中> \n
-2.构建Workflow体系<规划中>
-3.建立memory机制<还未开工>
-4.解决Agent库导入问题<找方案中>
-5.建立plugin生态<未开工>
-6.……
+- 1.提升GUIUse稳定性<开发中>
+- 2.构建Workflow体系<规划中>
+- 3.建立memory机制<还未开工>
+- 4.解决Agent库导入问题<找方案中>
+- 5.建立plugin生态<未开工>
+- 6.……
 
 ## Tips
-1.BUG：Agent导入必须以主目录位置导入，否则会报错（详见代码）->executor.py
-2.BUG:要求GUIUse单击一些按钮时会乱点、崩溃（开始菜单就是其一，自己测试一下就知道了）
-3.BUG:有时主AI并不会调用XPLANNER，造成任务出现断链
-4.欢迎大家修bug,提建议~
+- 1.BUG：Agent导入必须以主目录位置导入，否则会报错（详见代码）->executor.py
+- 2.BUG:要求GUIUse单击一些按钮时会乱点、崩溃（开始菜单就是其一，自己测试一下就知道了）
+- 3.BUG:有时主AI并不会调用XPLANNER，造成任务出现断链
+- 4.欢迎大家修bug,提建议~
 
 ## Thanks
 - CUI-Hyg:本人,承担主要开发
