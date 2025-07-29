@@ -35,15 +35,57 @@ CUI X-HiOS本质是一个AgentOS,通过主Agent调用工具、AGENT来完成任�
 
 ##Usage
 
-呃……还在测试😊
+1.此版本需要添加两个.env文件：一个在主目录下，一个在GUIOperator(必须使用VLLM)
+格式如下：
+(这里使用OpenAI通用API格式)
+```env
+OPENAI_API_KEY = sk-你的key
+BASE_URL = https://dashscope.aliyuncs.com/compatible-mode/v1
+MODEL = Moonshot-Kimi-K2-Instruct
+#建议到阿里云百炼获取API,新人有免费额度
+#主模型建议使用agent能力强的模型：kimi k2、qwen235b-a22b-*-2507、glm4.5……
+#GUIOperator下的建议用qwen-plus
+```
+另一个
+```cmd
+//1.临时使用
+set API_Key=sk-你的key
+//2.永久使用（Windows可在高级系统设置中编辑和查看）
+setx API_Key=sk-你的key
+```
+2. ```cmd git clone https://github.com/CUI-hyg/CUI-X-HiOS.git```
+
+3.创建一个虚拟环境
+```python
+python -m venv mcp-env
+```
+4.安装依赖
+```python
+pip install -r requirements.txt
+```
+如有缺包，请根据报错解决，建议拉个issue告诉我~
+添加.env
+
+运行```CUI-X-HiOS.py```,开始使用吧~
 
 ## Feature
-嗯？😊
+1.提升GUIUse稳定性<开发中>
+2.构建Workflow体系<规划中>
+3.建立memory机制<还未开工>
+4.解决Agent库导入问题<找方案中>
+5.建立plugin生态<未开工>
+6.……
+
+## Tips
+1.BUG：Agent导入必须以主目录位置导入，否则会报错（详见代码）->executor.py
+2.BUG:要求GUIUse单击一些按钮时会乱点、崩溃（开始菜单就是其一，自己测试一下就知道了）
+3.BUG:有时主AI并不会调用XPLANNER，造成任务出现断链
+4.欢迎大家修bug,提建议~
 
 ## Thanks
 - CUI-Hyg:本人,承担主要开发
 - Kimi K2:重构了半个架构（😨）
-- ……
+- Qwen3-Coder:修复多个Bug
 
 ## 最后
 ###### 感谢你关注本项目，请点亮一下Star,谢谢~⭐
