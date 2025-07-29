@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "OGOperator": {
+      "command": "python",
+      "args": [
+        "Framework/GUIOperator/OGO.py"
+      ]
+    }
+  }
+}

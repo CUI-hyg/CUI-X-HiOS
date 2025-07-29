@@ -1,0 +1,27 @@
+[
+    {
+        "agent": "XWebSearch",
+        "question": "Python异步编程最佳实践",
+        "mode": "normal"
+    },
+    {
+        "agent": "XWebSearch",
+        "question": "机器学习框架2024对比分析",
+        "mode": "comprehensive"
+    },
+    {
+        "agent": "XWebSearch",
+        "question": "AI Agent开发框架推荐",
+        "mode": "latest"
+    },
+    {
+        "agent": "XWebSearch",
+        "question": "Python性能优化技巧",
+        "mode": "technical"
+    },
+    {
+        "agent": "XWebSearch",
+        "question": "多智能体系统架构设计",
+        "mode": "academic"
+    }
+]

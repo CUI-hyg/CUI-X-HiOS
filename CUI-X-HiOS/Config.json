@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "XHiOSBaseServer": {
+      "command": "python",
+      "args": [
+        "XHiOS.py"
+      ]
+    }
+  }
+}

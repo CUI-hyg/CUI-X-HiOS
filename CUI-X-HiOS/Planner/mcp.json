@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "XPlanner": {
+      "command": "python",
+      "args": [
+        "Planner\\XPlanner.py"
+      ]
+    }
+  }
+}
