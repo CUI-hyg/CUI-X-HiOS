@@ -1,0 +1,10 @@
+pyautogui
+mcp
+json
+YAML
+openai
+dashscope
+asyncio
+traceback
+logging
+#如果安装完还会缺包，可打开主要的几个文件进行pip
